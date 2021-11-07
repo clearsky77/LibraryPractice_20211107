@@ -9,8 +9,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setupEvents()
+        setValues()
     }
     fun setupEvents() {
+//        이미지뷰, 텍스트뷰, LinearLayout 등도 setOnClickListener 가능.
+        imgProfile.setOnClickListener {
+            val myIntent = Intent(this, ViewPhotoActivity::class.java)
+            startActivity(myIntent)
+        }
     }
 
     fun setValues() {
