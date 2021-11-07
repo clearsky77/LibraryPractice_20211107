@@ -17,6 +17,8 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="120dp"
         android:layout_height="120dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/purple_200"
         android:src="@drawable/yuuna_sunset"/>
     <TextView
         android:layout_width="wrap_content"
