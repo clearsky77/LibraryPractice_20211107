@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun setValues() {
-        imgAction
         Glide.with(this).load("https://livedoor.blogimg.jp/rakumatome/imgs/2/8/28b4a693.jpg").into(imgAction)
+        Glide.with(this).load("https://newsimg.sedaily.com/2019/12/31/1VSAE95B8P_1.jpg").into(imgAction2)
+        Glide.with(this).load("https://psneolog.com/wp-content/uploads/2018/05/e33babe650ddf436ffb83bae5d354ff6.jpg").into(imgAction3)
     }
 }
