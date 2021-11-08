@@ -51,24 +51,27 @@
                 android:id="@+id/imgAction"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:scaleType="centerCrop"
+                android:background="#E3E0E3"
                 android:src="@mipmap/ic_launcher" />
 
             <ImageView
                 android:id="@+id/imgAction2"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:scaleType="centerCrop"
+                android:background="#E3E0E3"
                 android:src="@mipmap/ic_launcher" />
 
             <ImageView
                 android:id="@+id/imgAction3"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:scaleType="centerCrop"
+                android:background="#E3E0E3"
                 android:src="@mipmap/ic_launcher" />
 
         </LinearLayout>
